@@ -115,7 +115,7 @@ namespace ATTCNightAdventure
     Console.WriteLine("Before you brave the Chicago night life would you like to check your inventory? y/n");
     var checkInventory = Console.ReadLine();
     if (checkInventory == "y"){
-
+                 //inventory 
                  Console.WriteLine("You have: ");
                 foreach (string item in inventory)
                         {
