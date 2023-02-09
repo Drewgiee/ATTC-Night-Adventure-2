@@ -169,6 +169,7 @@ namespace ATTCNightAdventure
                     Console.WriteLine("Do you take it? y/n");
                     var takeWeapon = Console.ReadLine();
                     if(takeWeapon == "y"){
+                          //inventory
                          inventory.Add("Benchmade Demascus Knife");
                         Console.WriteLine("You have: ");
                 foreach (string item in inventory)
@@ -206,6 +207,7 @@ namespace ATTCNightAdventure
             var buyGun = Console.ReadLine();
             if (buyGun == "y") {
                 Console.WriteLine("The Glock 17 Gen 5 is now yours!");
+                //inventory
                 inventory.Add("Glock 17 Gen 5");
                 Console.WriteLine("You have: ");
                 foreach (string item in inventory)
